@@ -1,11 +1,26 @@
 {
   "name": "passport-clef",
   "version": "0.0.0",
-  "description": "",
+  "description": "Clef authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "clef",
+    "auth",
+    "authn",
+    "authentication",
+    "identity"
+  ],
   "author": {
     "name": "Jared Hanson",
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/passport-clef.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/passport-clef/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -20,9 +35,10 @@
     "passport-strategy": "1.x.x"
   },
   "devDependencies": {
-    "make-node": "^0.3.0",
-    "mocha": "^2.0.0",
-    "chai": "^3.0.0"
+    "make-node": "0.3.x",
+    "mocha": "1.x.x",
+    "chai": "2.x.x",
+    "chai-passport-strategy": "1.x.x"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.test.js"
