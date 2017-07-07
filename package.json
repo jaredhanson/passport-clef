@@ -16,6 +16,7 @@
   ],
   "main": "./lib",
   "dependencies": {
+    "clef": "^0.2.1",
     "passport-strategy": "1.x.x"
   },
   "devDependencies": {
